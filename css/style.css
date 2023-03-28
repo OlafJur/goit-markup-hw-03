@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top-nav-link-logo {
+    text-decoration: none;
+}
+.top-nav-link-logo:visited {
+    text-decoration: none;
+    color: black;
+}
+.top-nav-link:visited {
+    text-decoration: none;
+    color: black;
+}
+.top-nav-link {
+    text-decoration: none;
+    color: black;
+}
+.top-nav-link-contact {
+    color: #757575;
+    text-decoration: none;
+}
+.top-nav {
+    list-style: none;
+}
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+.web {
+    color: #2196f3;
+}
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+}
+.top-contact {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+}
+
+.top-nav-link:hover,
+.top-nav-link:focus {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.top-nav-link-contact:hover,
+.top-nav-link-contact:focus {
+    color: #2196f3;
+    cursor: pointer;
+}
+/*pierwsza strona main*/
+.top {
+    color: #ffffff;
+    background: #2f303a;
+    text-align: center;
+}
+.top-txt {
+    font-weight: 900;
+    font-size: 44px;
+}
+.top-button {
+    font-weight: 700;
+    font-size: 16px;
+    background: #2196f3;
+    color: #ffffff;
+}
+
+.top-button:hover,
+.top-button:focus {
+    cursor: pointer;
+}
+.mid-pic {
+    list-style: none;
+}
+.mid-txt {
+    font-size: 700;
+    font-size: 14px;
+}
+.mid-long {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+}
+.mid-pictures-txt {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.team-john {
+    list-style: none;
+}
+.team {
+    background: #f5f4fa;
+}
+.team-text {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.john-doe {
+    font-weight: 500;
+    font-size: 16px;
+}
+.job {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bottom {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    background: #2f303a;
+    text-decoration: none;
+}
+.bottom-adress {
+    font-style: normal;
+    text-decoration: none;
+}
+.bottom-logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+.bottom-logo:visited {
+    text-decoration: none;
+    color: white;
+}
+.bot-nav-link-contact {
+    color: #757575;
+    text-decoration: none;
+    font-style: normal;
+}
+.bot-nav-link-contact:link,
+.bot-nav-link-contact:focus {
+    color: #757575;
+
+    text-decoration: none;
+    font-style: normal;
+}
+.bottom-info {
+    list-style-type: none;
+}
+/*druga strona*/
+.filters {
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+}
+.filter-button {
+    background-color: #f5f4fa;
+}
+.filter-button:hover,
+.filer-button:focus {
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.main-pictures {
+    list-style: none;
+}
+.picture-text {
+    font-weight: 700;
+    font-size: 18px;
+}
+.smoll-txt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
