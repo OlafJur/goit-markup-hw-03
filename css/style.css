@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.top-nav-link-logo {
+.top-logo {
     text-decoration: none;
 }
-.top-nav-link-logo:visited {
+.top-logo:visited {
     text-decoration: none;
     color: black;
 }
@@ -23,7 +23,7 @@ body {
 .top-nav {
     list-style: none;
 }
-.nav-logo {
+.top-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -137,10 +137,10 @@ body {
     text-decoration: none;
     font-style: normal;
 }
-.bot-nav-link-contact:link,
+.bot-nav-link-contact:hover,
 .bot-nav-link-contact:focus {
-    color: #757575;
-
+    color: #2196f3;
+    cursor: pointer;
     text-decoration: none;
     font-style: normal;
 }
@@ -157,7 +157,7 @@ body {
     background-color: #f5f4fa;
 }
 .filter-button:hover,
-.filer-button:focus {
+.filter-button:focus {
     cursor: pointer;
     background-color: #2196f3;
     color: #ffffff;
