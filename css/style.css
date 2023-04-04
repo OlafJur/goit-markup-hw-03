@@ -1,8 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    margin: 0px;
 }
-.top-logo {
-    text-decoration: none;
+* {
+    margin: 0px;
+}
+.container {
+    width: 1200;
+    margin: 0px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.flex-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .top-logo:visited {
     text-decoration: none;
@@ -12,6 +25,7 @@ body {
     text-decoration: none;
     color: black;
 }
+
 .top-nav-link {
     text-decoration: none;
     color: black;
@@ -25,8 +39,10 @@ body {
 }
 .top-logo {
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     font-weight: 700;
     font-size: 26px;
+    padding: 24px 93px 24px 215px;
 }
 .web {
     color: #2196f3;
@@ -58,16 +74,25 @@ body {
     color: #ffffff;
     background: #2f303a;
     text-align: center;
+    width: 1600px;
+    height: 600px;
+    padding-bottom: 94px;
 }
 .top-txt {
     font-weight: 900;
     font-size: 44px;
+    padding: 200px 452px 30px;
 }
 .top-button {
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     background: #2196f3;
     color: #ffffff;
+    padding: 10px 42px 10px 41px;
+    border-radius: 4px;
+    border: 0px;
 }
 
 .top-button:hover,
@@ -76,7 +101,12 @@ body {
 }
 .mid-pic {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 94px;
 }
+
 .mid-txt {
     font-size: 700;
     font-size: 14px;
@@ -86,13 +116,30 @@ body {
     font-weight: 400;
     font-size: 14px;
 }
+.flex-mid {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .mid-pictures-txt {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .team-john {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 94px;
+    border-radius: 4px;
 }
 .team {
     background: #f5f4fa;
@@ -101,15 +148,24 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.john-background {
+    background-color: #ffffff;
 }
 .john-doe {
     font-weight: 500;
     font-size: 16px;
+    text-align: center;
+    padding: 30px 99px 10px 99px;
 }
 .job {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 .bottom {
     font-weight: 400;
