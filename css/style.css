@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-font-color);
+    width: 1600px;
+}
+* {
+    margin: 0;
 }
 :root {
     --primary-color: #2196f3;
@@ -9,30 +13,35 @@ body {
     --main-background: #2f303a;
     --scnd-background: #f5f4fa;
 }
-.top-logo {
-    text-decoration: none;
-    color: black;
-}
-.top-logo:visited {
-    text-decoration: none;
-    color: black;
-}
-.top-nav-link:visited {
-    text-decoration: none;
-    color: black;
+.container {
+    width: 1200;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .top-nav-link {
     text-decoration: none;
-    color: black;
+    color: var(--main-font-color);
 }
 .top-nav-link-contact {
     text-decoration: none;
     color: var(--primary-color);
 }
+.header-flex {
+    display: flex;
+    justify-content: flex-start;
+}
 .top-nav {
     list-style: none;
+    display: flex;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    padding: 32px 46px;
 }
 .logo {
+    padding: 24px 93px 25px 215px;
+    display: flex;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -49,11 +58,16 @@ body {
     font-weight: 500;
     font-size: 14px;
 }
+.contact-flex {
+    display: flex;
+    padding-left: 371px;
+}
 .top-contact {
+    display: flex;
+    padding: 32px 50px;
     color: var(--scnd-font-color);
     font-weight: 500;
     font-size: 14px;
-    text-align: right;
     text-decoration: none;
 }
 
