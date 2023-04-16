@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-font-color);
-    width: 1600px;
+    min-width: 1600px;
 }
 * {
-    margin: 0;
+    margin: 0px;
 }
 :root {
     --primary-color: #2196f3;
@@ -12,11 +12,15 @@ body {
     --scnd-font-color: #757575;
     --main-background: #2f303a;
     --scnd-background: #f5f4fa;
+    --main-border: #ececec;
+    --filter-border: #eeeeee;
 }
 .container {
-    width: 1200;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+}
+.section {
+    padding: 94px 0;
 }
 .top-nav-link {
     text-decoration: none;
@@ -26,9 +30,13 @@ body {
     text-decoration: none;
     color: var(--primary-color);
 }
+header {
+    border: 1px solid var(--main-border);
+}
 .header-flex {
     display: flex;
     justify-content: flex-start;
+    margin: 0;
 }
 .top-nav {
     list-style: none;
@@ -38,8 +46,9 @@ body {
 .nav {
     display: flex;
     padding: 32px 46px;
+    margin: 0px;
 }
-.logo {
+.logo-top {
     padding: 24px 93px 25px 215px;
     display: flex;
     text-decoration: none;
@@ -61,10 +70,14 @@ body {
 .contact-flex {
     display: flex;
     padding-left: 371px;
+    padding-right: 0px;
+    align-items: baseline;
 }
 .top-contact {
     display: flex;
-    padding: 32px 50px;
+    padding-top: 32px;
+    padding-right: 50px;
+    white-space: nowrap;
     color: var(--scnd-font-color);
     font-weight: 500;
     font-size: 14px;
@@ -87,85 +100,130 @@ body {
 }
 /*pierwsza strona main*/
 .top {
+    min-width: 1600px;
     color: white;
     background: var(--main-background);
     text-align: center;
+    padding-bottom: 200px;
 }
-.top-txt {
+h1 {
     font-weight: 900;
     font-size: 44px;
+    line-height: 60px;
+    padding: 106px 452px 30px 452px;
+    letter-spacing: 0.06em;
+    align-content: center;
 }
 .top-button {
     font-weight: 700;
     font-size: 16px;
     background: var(--primary-color);
     color: white;
+    padding: 10px 40px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    border-radius: 4px;
 }
-
 .top-button:hover,
 .top-button:focus {
     cursor: pointer;
 }
-.mid-pic {
+.flex-mid {
+    display: flex;
     list-style: none;
+    gap: 30px;
 }
 .mid-txt {
+    display: flex;
     font-size: 700;
     font-size: 14px;
 }
 .mid-long {
+    display: flex;
+    letter-spacing: 0.03em;
+    line-height: 24px;
     color: var(--scnd-font-color);
     font-weight: 400;
     font-size: 14px;
+}
+.mid-pic {
+    display: flex;
+    gap: 30px;
+    list-style: none;
 }
 .mid-pictures-txt {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-}
-.team-john {
-    list-style: none;
+    padding-bottom: 50px;
 }
 .team {
     background: var(--scnd-background);
 }
-.team-text {
+h2 {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    padding-bottom: 50px;
+}
+.team-john {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.john-photo {
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
 }
 .john-doe {
+    display: flex;
     font-weight: 500;
     font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .job {
+    display: flex;
     color: var(--scnd-font-color);
     font-weight: 400;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 .bottom {
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 60px;
     font-weight: 400;
     font-size: 14px;
     color: white;
     background: var(--main-background);
     text-decoration: none;
 }
+.flex-bottom {
+    display: flex;
+    flex-direction: column;
+}
 .bottom-adress {
+    display: flex;
     font-style: normal;
     text-decoration: none;
 }
-.bottom-logo {
+.logo-bottom {
+    padding-bottom: 20px;
+    display: flex;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    color: white;
+    color: var(--primary-color);
 }
 .bottom-logo:visited {
     text-decoration: none;
     color: white;
 }
 .bot-nav-link-contact {
+    display: flex;
     color: var(--scnd-font-color);
     text-decoration: none;
     font-style: normal;
@@ -178,16 +236,27 @@ body {
     font-style: normal;
 }
 .bottom-info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
     list-style-type: none;
 }
 /*druga strona*/
 .filters {
-    font-weight: 500;
-    font-size: 16px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    gap: 9px;
+    display: flex;
     list-style: none;
 }
 .filter-button {
+    display: flex;
+    padding: 6px 22px;
+    border-style: none;
+    border-radius: 4px;
     background-color: var(--scnd-background);
+    font-weight: 500;
+    font-size: 16px;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -196,13 +265,28 @@ body {
     color: white;
 }
 .main-pictures {
+    display: flex;
     list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 94px;
+}
+.picture-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--filter-border);
 }
 .picture-text {
+    display: flex;
+    padding: 20px 24px 4px 24px;
     font-weight: 700;
     font-size: 18px;
 }
-.smoll-txt {
+.small-txt {
+    display: flex;
+    padding: 4px 24px 20px 24px;
     font-size: 16px;
     font-weight: 400;
     color: var(--scnd-font-color);
