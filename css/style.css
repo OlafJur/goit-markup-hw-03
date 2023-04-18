@@ -296,9 +296,6 @@ h2 {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 94px;
 }
 .project-item {
     display: flex;
